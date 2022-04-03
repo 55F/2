@@ -2,13 +2,14 @@ import threading
 
 from sqlalchemy import (
     Column,
-    BigInteger,
+    Integer,
     UnicodeText,
     String,
     ForeignKey,
     UniqueConstraint,
     func,
 )
+from sqlalchemy.sql.sqltypes import BigInteger
 
 from DionRobot import dispatcher
 from DionRobot.modules.sql import BASE, SESSION
