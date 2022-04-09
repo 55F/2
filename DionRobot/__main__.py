@@ -32,12 +32,12 @@ from DionRobot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey there! my name is *Dion Robot*. If you have any questions on how to use me, Click Help button.
+Hey there! my name is *Marin*. If you have any questions on how to use me, Click Help button.
 
 I'm here to make your group management fun and easy!
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [Dion Support](https://t.me/DionSupport).
+Any issues or need help related to me? join our group [Marin Support](https://t.me/MarinRobotSupport).
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -45,9 +45,9 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/DionRobot?startgroup=true"
+            text="Add to Group 👥", url="t.me/MissMarin_bot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates 📢", url="https://t.me/DionProjects"),
+        InlineKeyboardButton(text="Updates 📢", url="https://t.me/MarinProjects"),
     ],
     [
         InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
@@ -57,7 +57,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-Hello there! My name is *Dion Robot*.
+Hello there! My name is *Marin Robot*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 
